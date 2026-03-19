@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Section</title>
+</head>
+<body>
+
+   <section class="admissions">
+
+<div class="admissions-container">
+
+<div class="contacts">
+<h2>Admissions</h2>
+<form class="contact-form">
+<label for="name">Name:</label>
+<input
+ type="text" 
+ id="name" 
+ name="name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<label for="grade">Grade Applying For:</label>
+<select id="grade" name="grade" required>
+<option value="">Select Grade</option>
+<option value="kindergarten">Kindergarten</option>
+<option value="1st">1st Grade</option>
+<option value="2nd">2nd Grade</option>
+<option value="3rd">3rd Grade</option>
+<option value="4th">4th Grade</option>
+<option value="5th">5th Grade</option>
+<option value="6th">6th Grade</option>
+<option value="7th">7th Grade</option>
+<option value="8th">8th Grade</option>
+<option value="9th">9th Grade</option>
+<option value="10th">10th Grade</option>
+<option value="11th">11th Grade</option>
+<option value="12th">12th Grade</option>
+</select>
+<label for="message">Message:</label>
+<textarea id="message" name="message" rows="4" required></textarea>
+</form>
+</div>
+
+<button class="apply-btn">Submit</button>
+
+<section class="contact-info">
+    <h3>Contact Information</h3>
+    <p>467 Education Street, Learning City</p>
+    <p>Phone: (254) 702260426</p>
+    <p>Email: info@godsmightschool.com</p>
+
+</section>
+
+
+</div>
+
+
+
+<footer class="footer">
+
+<p>© 2026 Godsmight International School</p>
+
+</footer>
+</section>
+
+
+</body>
+</html>
+
+<style>
+   .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contacts {
+    font-size: 2.0rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid var(--accent);
+}
+
+.apply-btn {
+    background-color: white;
+    text-box: calc(1.2rem + 0.7rem);
+    color: red;
+    padding: 0.7rem 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    align-items: center;
+    text-align: center;
+}
+
+.apply-btn:hover {
+    background-color: rgb(97, 98, 100);
+    opacity: 0.9;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.0rem;
+}
+
+.admissions {
+    background-color: #28AFB0;
+    padding: 100px;
+    text-align: center;
+}
+.contact-info {
+    padding: 50px;
+    text-align: center;
+    font-size: 2.0rem;
+}
+
+@media (min-width: 768px) {
+    .contact-form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact-form input,
+    .contact-form textarea {
+        width: 300px;
+    }
+    .apply-btn {
+        margin-top: 1rem;
+    }
+}
+</style> 

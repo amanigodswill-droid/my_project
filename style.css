@@ -39,7 +39,7 @@
 }
 
 .hero-content h1 {
-    font-size: 3.0rem;
+    font-size: 4.0rem;
     margin-bottom: 1rem;
     color: yellow;
     align-items: center;
@@ -49,49 +49,22 @@
 .hero-content #p1 {
     margin-bottom: 1.5rem;
     color: #E94F37;
-    font-size: 2.4rem;
+    font-size: 3.0rem;
     text-align: center;
 }
 
 .hero-content #p2 {
     margin-bottom: 1.5rem;
     color: #F6F7EB;
-    font-size: 2.0rem;
+    font-size: 2.4rem;
     text-align: center;
 }
 
 .hero-content img {
-    width: 300px;
-    height: auto;
-    margin-bottom: 20px;
-    object-fit: cover;
-    align-items: center;
-    margin-left: 500px;
-    margin-right: auto; 
-
-
-    
-}
-
-.campus-card {
-    display: grid;
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    font-size:2.0rem;
-
-}
-
-.campus-grid {
-    background-color: #37392E;
-    height: 600px;
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    padding: 20px;
-
-
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 100px;
 }
 
 .facilities {
@@ -178,50 +151,4 @@
 .apply-btn {
     background-color: white;
     text-box: calc(1.2rem + 0.7rem);
-    color: red;
-    padding: 0.7rem 1.5rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.2rem;
-    align-items: center;
-    text-align: center;
-}
-
-.apply-btn:hover {
-    background-color: rgb(97, 98, 100);
-    opacity: 0.9;
-}
-
-.footer {
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    font-size: 2.0rem;
-}
-
-.admissions {
-    background-color: #28AFB0;
-    padding: 100px;
-    text-align: center;
-}
-.contact-info {
-    padding: 50px;
-    text-align: center;
-    font-size: 2.0rem;
-}
-
-@media (min-width: 768px) {
-
-    .grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .team-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .hero h2 {
-        font-size: 2.5rem;
-    }
 }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faclilities Section</title>
+</head>
+<body>
+    <section class="facilities">
+    <h1>Our Facilities</h1>
+    <div class="campus-grid">
+<div class="campus-card">
+<h3>Sports & Activities</h3>
+<img src="Assets/Sports Image.jpg" style="width: 100%; height: 400px; object-fit: cover;">
+</div>
+
+<div class="campus-card">
+    <h3>Arts & Music</h3>
+<img src="Assets/Arts and Image.jpg" style="width: 100%; height: 400px; object-fit: cover;">
+
+</div>
+
+<div class="campus-card">
+    <h3>Field Trips</h3>
+<img src="Assets/Field Trips.jpg" style="width: 100%; height: 400px; object-fit: cover;">
+</div>
+
+<div class="campus-card">
+    <h3>Library & Study Areas</h3>
+    <img src="Assets/Library Image.jpg" style="width: 100%; height: 400px; object-fit: cover;">
+</div>
+
+<div class="campus-card">
+    <h3>Science Labs</h3>
+    <img src="Assets/Lab Image.jpg" style="width: 100%; height: 400px; object-fit: cover;">
+    </div>
+
+<div class="campus-card">
+    <h3>Technology & Computer Labs</h3>
+    <img src="Assets/Computer.jpg" style="width: 100%; height: 400px; object-fit: cover;">
+    </div>
+    <div class="campus-card">
+        <h3> Students' Classrooms</h3>
+        <img src="Assets/Classroom.jpg" style="width: 100%; height: 400px; object-fit: cover;">
+        </div>
+
+
+</div>
+</body>
+
+</html>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        line-height: 1.6;
+        background-color: lightsteelblue;
+    }
+    .campus-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    .campus-card {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        text-align: center;
+    }
+    .campus-card h3 {
+        margin: 15px 0;
+    }
+    .campus-card img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+.facilities h1 {
+    font-size: 50px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .campus-card img {
+        height: 250px;
+    }
+    
+}
+</style>
