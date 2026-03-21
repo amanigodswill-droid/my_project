@@ -37,6 +37,12 @@
     background-size: cover;
     background-position: center;
 }
+.hero {
+  background: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('Assets/School\ image.jpg');
+  background-size: cover;
+}
 
 .hero-content h1 {
     font-size: 4.0rem;
